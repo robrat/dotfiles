@@ -13,7 +13,7 @@ echo 'Installing powerlevel9k zsh theme ...'
 cd ~/.oh-my-zsh/custom
 git clone https://github.com/bhilburn/powerlevel9k.git themes/powerlevel9k
 
-echo 'Copying zshrc to home dir ...'
-cp -v .zshrc ~
+echo 'Copying some configs / aliases to home dir ...'
+cp -v .zshrc env-java6 env-java7 env-java8 .aliases ~
 
 echo 'Done. Do not forget to change the terminal font.'

@@ -1,0 +1,15 @@
+alias ls='ls --color=auto --group-directories-first'
+#alias ll='ls -lF'
+#alias la='ls -A'
+#alias l='ls -CF
+
+alias jdk6='source ~/env-java6'
+alias jdk7='source ~/env-java7'
+alias jdk8='source ~/env-java8'
+
+alias cls="echo -ne '\033c'"
+
+alias mvnci='mvn clean install'
+alias mvncist='mvn clean install -DskipTests'
+
+alias henplus_ads='henplus --url jdbc:h2:file:h2db --username "SA" --password ""'

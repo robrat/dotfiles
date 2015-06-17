@@ -1,0 +1,8 @@
+export JAVA_HOME=/opt/jdk7
+export ANT_HOME=/opt/ant
+export MAVEN_HOME=/opt/maven3
+export PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$MAVEN_HOME/bin:$PATH
+export MAVEN_OPTS="$MAVEN_OPTS -Xmx2g -XX:MaxPermSize=256m"
+java -version
+echo
+mvn -version

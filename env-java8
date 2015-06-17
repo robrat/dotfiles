@@ -1,0 +1,7 @@
+export JAVA_HOME=/opt/jdk8
+export ANT_HOME=/opt/ant
+export MAVEN_HOME=/opt/maven3
+export PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$MAVEN_HOME/bin:$PATH
+java -version
+echo
+mvn -version
