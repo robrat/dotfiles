@@ -20,9 +20,9 @@ cp -v .zshrc env-java6 env-java7 env-java8 .aliases ~
 
 dircolors -b >> ~/.zshrc
 
-# echo 'Cloning and installing dircolors-solarized ...'
-# cd ~/git/github
-# git clone https://github.com/seebi/dircolors-solarized seebi/dircolors-solarized
+echo 'Cloning and installing dircolors-solarized ...'
+cd ~/git/github
+git clone https://github.com/seebi/dircolors-solarized seebi/dircolors-solarized
 # dircolors -b seebi/dircolors-solarized/dircolors.ansi-dark >> ~/.zshrc
 
 echo 'Done. Do not forget to change the terminal font.'
