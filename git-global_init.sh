@@ -12,8 +12,8 @@ git config --global alias.ci commit
 git config --global alias.co checkout
 git config --global alias.br branch
 
-git config --global alias.log-timeline log --format='%h %an, %ar - %s'
-git config --global alias.log-local log --oneline origin/master..HEAD
-git config --global alias.log-fetched log --oneline HEAD..origin/master
-git config --global alias.hist log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+#git config --global alias.log-timeline log --format='%h %an, %ar - %s'
+#git config --global alias.log-local log --oneline origin/master..HEAD
+#git config --global alias.log-fetched log --oneline HEAD..origin/master
+#git config --global alias.hist log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 
