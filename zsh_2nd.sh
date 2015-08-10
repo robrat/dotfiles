@@ -25,6 +25,11 @@ echo 'Copying some configs / aliases to home dir ...'
 cd $CURR_DIR
 cp -v .zshrc env-java6 env-java7 env-java8 .aliases ~
 
+cat <<EOF >> ~/.zshrc
+#export WORDCHARS='/ '
+autoload -U select-word-style
+select-word-style whitespace
+EOF
 
 dircolors -b >> ~/.zshrc
 
